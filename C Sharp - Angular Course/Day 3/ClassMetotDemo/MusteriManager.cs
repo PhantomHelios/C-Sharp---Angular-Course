@@ -9,6 +9,7 @@ public class MusteriManager{
 
     public void add(Musteri musteri){
         musteriler.Add(musteri);
+        Console.WriteLine("Musteri eklendi.");
     }
 
     public void list(){
